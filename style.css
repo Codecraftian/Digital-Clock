@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgba(84, 84, 227, 0.836);
+}
+
+.box{
+  background: rgba(0, 0, 0, 0.614);
+  color: white;
+  text-align: center;
+  padding: 5rem 10rem;
+  border-radius: 10px;
+  border: 2px solid rgb(222, 103, 48);
+  box-shadow: 5px 5px 20px #bcbceb5a;
+}
+
+.heading{
+  position: relative;
+  top: -45px;
+}
+
+.clock{
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background:rgb(222, 103, 48);
+}
